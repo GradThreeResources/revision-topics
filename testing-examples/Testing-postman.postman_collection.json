@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "6da188cf-1976-4d86-9dcd-695166bc2d1f",
+		"name": "Testing-postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15251149"
+	},
+	"item": [
+		{
+			"name": "Get User Books",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 10\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/user_books",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"user_books"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
